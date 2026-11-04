@@ -1,0 +1,5 @@
+import Link from "next/link";
+import Image from "next/image";
+import { SectionLabel } from "../components/site";
+export const metadata={title:"Careers"};
+export default function Careers(){return <main id="main-content"><section className="page-intro section-wrap"><SectionLabel>GROW WITH ZAFRI</SectionLabel><h1>The next chapter<br /><em>starts with people.</em></h1><p>Find out how to express your interest in working with the Jodhpur team.</p></section><section className="career-panel section-wrap"><Image src="/images/editorial/jodhpur-editorial.webp" alt="AI-generated editorial view of Jodhpur, the home of Zafri" width={1536} height={1024} sizes="(max-width: 760px) 88vw, 40vw" /><div><SectionLabel>BUILDING OUR FUTURE</SectionLabel><h2>Bring your perspective.<br />Be part of our journey.</h2><p>Share a brief introduction, your area of experience and the kind of opportunity you are looking for with our office.</p><p>The team will confirm current openings and explain the application process for any suitable role.</p><Link className="button button-green" href="/contact">Speak with our team <span>↗</span></Link></div></section></main>}

@@ -1,0 +1,15 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "useCase": "photorealistic-natural",
+  "purpose": "New editorial cover for the Zafri brand film; this is not a frame from the commercial.",
+  "prompt": "Use case: photorealistic-natural. Asset type: editorial brand-film cover photograph, wide 16:9 composition, high resolution. Create a sophisticated close-up editorial still life of vivid deep crimson saffron threads, fresh green cardamom pods and a few pale pink rose petals resting on gently folded warm ivory silk, with a small vintage aged brass spoon partly in frame. Rich tactile material detail, real imperfect botanical textures, authentic soft late-afternoon window light, delicate shadows, harmonious ivory, warm gold, forest green and crimson palette. A composed but naturally irregular arrangement fills the frame, with balanced detail throughout, no large empty dark region. Calm, contemporary Indian heritage mood, beautiful magazine photography, true camera depth of field with key botanicals sharp, no oversaturated glow, no artificial CGI sheen. This is a newly designed cover for a non-tobacco pan masala brand film, not a frame from the commercial. No packet/product, no people, no film cameras, no text, logos, watermarks, graphic geometry, arches, circles, frames or pedestals. Frontend will place title/play control over lower portion; keep lower left simple enough for clear ivory typography but still natural photo texture.",
+  "generatedSource": "/Users/gandiva/.codex/generated_images/01a17680-5332-79e3-b3e8-75d0195aa9f5/exec-d9e501d9-1a32-4b07-aaaf-754b1dbece12.png",
+  "assetPath": "public/images/media/zafri-film-cover.webp",
+  "width": 1672,
+  "height": 941,
+  "output": {
+    "format": "webp",
+    "quality": 90,
+    "resize": false
+  }
+}

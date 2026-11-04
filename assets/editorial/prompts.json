@@ -1,0 +1,15 @@
+{
+  "generator": "Built-in image_gen",
+  "images": [
+    {
+      "name": "zafri-editorial-hero",
+      "prompt": "Use case: product-mockup. Asset type: wide full-width website hero photograph. Use the provided Zafri sachet reference as the exact product identity; preserve its real golden packaging, ZAFRI spelling and label artwork faithfully. Create an exceptionally beautiful, photorealistic high-end editorial still life on a worn dark walnut tabletop: the Zafri sachet stands naturally leaning against a few raw wood pieces in the right third, surrounded by fresh green cardamom pods, a delicate scatter of crimson saffron threads, one pale pink rose and several rich deep green leaves. Soft late afternoon window light falls from upper right, subtle warm highlights on gold foil, moody forest-green and brown shadows. Left 50 percent is beautiful dark out-of-focus natural background and tabletop suitable for white heading overlay, no large objects there. Landscape 16:9 or wider, photographer's 50mm lens, real textures, authentic material imperfections, premium Indian heritage mood without visual cliches. The product and botanicals fill the right half at realistic scale and are clear at a website hero crop. No ornamental geometry, arches, circles, decorative patterns, platforms, graphic shapes, borders, framing devices or pedestals. No text added beyond the existing product packaging. No people, no extra brands, no watermark.",
+      "outputPath": "public/images/editorial/zafri-editorial-hero.webp"
+    },
+    {
+      "name": "jodhpur-editorial",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape editorial website photograph illustrating the heritage of Jodhpur, Rajasthan. An atmospheric, beautifully composed view across the old blue city of Jodhpur toward the authentic Mehrangarh Fort in the distance, late afternoon warm Indian sunlight, quiet layered blue plaster rooftops, natural worn surfaces, soft golden haze and sunlit stone of the fort. Contemporary travel editorial photography, natural detailed textures, sophisticated muted blue and warm ochre, realistic historical architecture, very subtle film grain. Wide 3:2 framing with a clear view across the city, no staged props, no people close to camera, no text, watermarks, geometric graphic overlays, ornamental frames or illustration. This is a photographic illustration of Jodhpur, not an image of a company premises.",
+      "outputPath": "public/images/editorial/jodhpur-editorial.webp"
+    }
+  ]
+}

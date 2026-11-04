@@ -1,0 +1,203 @@
+.brand-film {
+  width: 100%;
+  min-width: 0;
+  color: var(--ink);
+  font-family: var(--font-sans), Arial, sans-serif;
+}
+
+.brand-film-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--paper);
+}
+
+.brand-film-poster {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.brand-film-play {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 8px;
+  width: 100%;
+  min-height: 44px;
+  padding: clamp(20px, 3vw, 34px);
+  border: 0;
+  background: linear-gradient(90deg, #fcfaf6f2 0%, #fcfaf6df 30%, #fcfaf68c 58%, #fcfaf600 82%);
+  color: var(--green);
+  text-align: left;
+}
+
+.brand-film-cover-kicker {
+  font-size: 10px;
+  line-height: 1.5;
+  letter-spacing: 1.8px;
+  font-weight: 500;
+  color: var(--gold);
+}
+
+.brand-film-cover-title {
+  font: 500 38px/1.05 var(--font-display);
+  letter-spacing: -.5px;
+}
+
+.brand-film-play-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 44px;
+  padding-block: 9px;
+  border-bottom: 1px solid var(--gold);
+  font: 500 13px/1.5 var(--font-sans), Arial, sans-serif;
+}
+
+.brand-film-play-label > svg {
+  flex-shrink: 0;
+}
+
+.brand-film-play:hover .brand-film-play-label {
+  color: var(--gold);
+}
+
+.brand-film-play:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: -8px;
+}
+
+.brand-film-frame {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.brand-film-frame.is-ready {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.brand-film-message {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 8px;
+  padding: clamp(14px, 3vw, 34px);
+  background: #f6f2e9ed;
+  color: var(--green);
+}
+
+.brand-film .brand-film-message p {
+  color: var(--green);
+  font: 500 15px/1.5 var(--font-sans), Arial, sans-serif;
+  margin: 0;
+}
+
+.brand-film-message > span {
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.brand-film-retry {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  margin-top: 2px;
+  padding: 9px 15px;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--green);
+  font-size: 13px;
+}
+
+.brand-film-retry:hover {
+  background: #9975480d;
+}
+
+.brand-film-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  row-gap: 0;
+  padding-top: 8px;
+}
+
+.brand-film-caption {
+  font-size: 12px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.brand-film-actions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 22px;
+}
+
+.brand-film-actions > button,
+.brand-film-actions > a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 44px;
+  padding: 10px 0;
+  border: 0;
+  background: transparent;
+  color: var(--green);
+  font: 13px/1.5 var(--font-sans), Arial, sans-serif;
+}
+
+.brand-film-actions > button:hover,
+.brand-film-actions > a:hover {
+  color: var(--gold);
+}
+
+.brand-film-actions > button > span {
+  color: var(--gold);
+  font-size: 17px;
+  line-height: 1;
+}
+
+@media (max-width: 500px) {
+  .brand-film-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+    padding-top: 12px;
+  }
+
+  .brand-film-actions {
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 14px;
+  }
+
+  .brand-film-play {
+    gap: 6px;
+    padding: 16px;
+  }
+
+  .brand-film-cover-title {
+    font-size: 34px;
+  }
+}

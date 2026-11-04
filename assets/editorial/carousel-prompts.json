@@ -1,0 +1,36 @@
+{
+  "generator": "Built-in image_gen.imagegen",
+  "purpose": "Custom AI-generated hero-carousel editorial imagery for Zafri; product slide references the original non-tobacco Pan Masala sachet. Jodhpur image is an AI-created cityscape, not company premises.",
+  "conversion": {
+    "format": "webp",
+    "quality": 90,
+    "resize": false
+  },
+  "assets": [
+    {
+      "source": "/Users/gandiva/.codex/generated_images/01a17680-5332-79e3-b3e8-75d0195aa9f5/exec-d6a84d4a-5646-41eb-828c-f64c9bc2dc71.png",
+      "destination": "public/images/carousel/zafri-pan-masala.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 326674,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: premium website hero carousel photograph, wide 16:9 composition, crisp high resolution.\nPrimary request: A custom luxury Indian heritage editorial still life of the real ZAFRI PAN MASALA gold sachet shown in the supplied reference, with fresh green cardamom pods and one pale pink rose resting naturally on warm ivory handloom linen over a small area of aged walnut wood.\nInput images: Image 1 is the exact reference product packaging. Preserve the exact ZAFRI / PAN MASALA label artwork, proportions, emblem, gold border, colors and small printed details. Do not invent, replace or add any product lettering. This is non-tobacco Pan Masala only.\nComposition: Landscape about 16:9. Main subject entirely within the RIGHT 48% of the frame, with the entire sachet visible and margins around it so a mobile crop of the right half still shows the whole sachet. The sachet rests at a natural believable slightly turned angle in the RIGHT half. Restrain botanicals to its immediate base. The LEFT 45% is gently folded warm ivory handloom linen and softly lit natural plaster texture, calm and low contrast for frontend typography. No large dark or black region. The product should be large and beautifully detailed but not cropped by the photograph edges.\nLighting and mood: authentic soft early-afternoon window light, delicate imperfect shadows, natural warm ivory and pale gold palette with deep forest green botanical accents. Real camera photography, finely resolved tactile material detail, subtle true depth of field, no artificial CGI sheen, no over-saturated glow.\nConstraints: No people, hands, tobacco, Gutkha, smoking, fake awards, extra packets, extra text, captions, watermarks or invented logos. No decorative geometric figures, arches, circles, graphic frames or artificial pedestals. Do not create graphic design; only a realistic photograph with the exact referenced sachet.",
+      "referenceImage": "public/images/zafari_img.png"
+    },
+    {
+      "source": "/Users/gandiva/.codex/generated_images/01a17680-5332-79e3-b3e8-75d0195aa9f5/exec-ea822d98-2fca-4ba1-87a2-3a826089764a.png",
+      "destination": "public/images/carousel/ingredient-origins.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 299644,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: premium website hero carousel photograph, wide 16:9 composition, crisp high resolution.\nPrimary request: Brand-new close-up editorial still life of fresh green cardamom pods, a modest nest of deep crimson saffron threads and one pale pink rose petal beside a small antique aged brass spoon, all resting naturally on softly folded tactile warm ivory handloom linen. This is a distinct airy tabletop composition, with small botanical clusters concentrated on the right and a quiet linen foreground, not an abundant overflowing bowl arrangement.\nComposition: wide landscape about 16:9. All botanical subjects and the small spoon are concentrated within the RIGHT 48% with generous margins around the full grouping so a crop of the right half retains the entire arrangement. The LEFT 45% is softly folded warm ivory linen with subtle low-contrast natural texture and delicate daylight shadows for frontend typography. Fill the frame with gentle natural materials; no empty dark or black region.\nStyle: beautiful genuine magazine photography, modern Indian heritage sensibility, real imperfections in pods and threads, richly resolved botanical texture, true camera depth of field with the key grouping sharp. Harmonious warm ivory, light gold, natural forest green, crimson and muted pale rose, restrained saturation.\nLighting: soft early-afternoon window light and delicate shadows, authentic tactile fabric. No artificial glow or CGI sheen.\nConstraints: No product packets, people, hands, text, logos, captions, watermarks, fake awards, graphic figures, decorative arches, circles, frames or artificial pedestals. No giant ingredient mounds or busy dark setting. Pure photographic editorial image."
+    },
+    {
+      "source": "/Users/gandiva/.codex/generated_images/01a17680-5332-79e3-b3e8-75d0195aa9f5/exec-cbca27fc-676b-4166-8508-f17b84126d50.png",
+      "destination": "public/images/carousel/jodhpur-heritage.webp",
+      "width": 1672,
+      "height": 941,
+      "bytes": 291612,
+      "prompt": "Use case: photorealistic-natural.\nAsset type: premium website hero carousel photograph, wide 16:9 composition, crisp high resolution.\nPrimary request: A beautiful realistic architectural editorial photograph of Jodhpur at golden early morning: authentic Mehrangarh Fort rising above the layered blue city, all featured on the RIGHT HALF of the photograph, viewed from a quiet rooftop terrace. This is a truthful cityscape, not company premises.\nComposition: wide landscape about 16:9. The main fort silhouette and richly detailed blue-city rooftops are concentrated within the RIGHT 48%, with the entire main fort mass contained within that half and comfortable margins so the right half can be cropped for mobile. The LEFT 45% is an understated softly lit warm ivory lime-plastered rooftop parapet and terrace edge, close to the camera and gently out of focus with subtle hand-applied plaster texture, blending into warm light and pale morning atmosphere. The left must stay calm, light and low contrast for frontend typography. No large dark or black region.\nStyle: sophisticated authentic travel editorial photography, accurate natural Jodhpur and Mehrangarh architectural forms, real stone and plaster, gently atmospheric distance without losing architectural detail. Warm ivory, sandstone light gold, restrained natural blue-city tones and faint muted green.\nLighting: natural golden early morning sunlight, soft true shadows, real camera perspective, finely resolved details. No fantasy palace, CGI sheen, oversaturated glow or overly dramatic artificial sky.\nConstraints: No people, company signage, text, logos, captions, watermarks, decorative geometric figures, added arches, circles, frames, fake ceremonial decorations or artificial pedestals. Architecture must look photographic and plausible."
+    }
+  ]
+}
